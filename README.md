@@ -12,9 +12,11 @@ Você entrega um texto, ela devolve reescrito sem os vícios que denunciam máqu
 
 **Depois**
 
-> Muita gente escreve com IA hoje. O texto sai rápido, e sai parecido com todo o resto. Mesma cadência, mesma conclusão morna no último parágrafo. Quem lê bastante percebe em duas linhas. Não sei dizer se isso muda, e desconfio de quem diz que sabe.
+> Muita gente escreve com IA hoje, e o problema não é a velocidade. É que sai tudo com a mesma cadência, e com aquele parágrafo final morno que podia estar em qualquer outro texto. Dá pra sentir na segunda linha. O que me incomoda é que, em algum ponto daquele texto, ninguém precisou decidir nada.
 
-64 palavras viraram 45. A diferença não é corte de gordura. As frases que sumiram eram as que não afirmavam nada.
+Tem uma armadilha na hora de reescrever, e ela é fácil de cair. Você tira o texto inflado, coloca uma fila de frases curtas no lugar, e o resultado fica limpo e continua soando a máquina. Cinco frases de tamanho parecido em sequência são um padrão tão visível quanto o travessão.
+
+A primeira versão deste exemplo caiu exatamente nisso, com frases de 6, 11, 8, 7 e 13 palavras. O texto com cara de IA, logo acima, tem frases de 19, 16, 25 e 4. Ele variava mais que a correção dele. A versão que ficou no "depois" vai de 6 a 21 palavras, e a frase curta está ali para quebrar a longa que veio antes.
 
 ## O que saiu, item por item
 
@@ -86,7 +88,7 @@ npx skills remove humanizer-br
 
 ## Usar
 
-Abra a ferramenta, cole o texto e peça a revisão. No Claude Code você chama por `/humanizer-br`. Em qualquer uma delas funciona pedir pelo nome:
+Abra a ferramenta, cole o texto e peça a revisão. No Claude Code você chama por `/humanizer-br`, e nas outras funciona pedir pelo nome no meio da frase:
 
 ```
 usa a skill humanizer-br neste texto:
@@ -111,7 +113,7 @@ O segundo bloco existe porque uma passada só não resolve. A skill critica o pr
 
 Ela edita texto que já existe. Não escreve do zero, e não inventa dado nem fonte pra preencher o buraco que sobra quando uma frase vazia é removida. Se o texto perdeu volume na reescrita, o volume era enchimento.
 
-Também não prometo nota em detector de IA. O critério aqui é leitura humana. O texto passa se soar como alguém escrevendo, não se enganar um classificador.
+Também não prometo nota em detector de IA. O critério aqui é leitura humana, e um classificador pode achar o que quiser do resultado.
 
 ## De onde vem o conteúdo
 
