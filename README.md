@@ -29,7 +29,6 @@ Cada linha abaixo está catalogada no SKILL.md, com a seção que trata dela.
 | "desempenha um papel fundamental" | Cópula artificial | Cópulas Artificiais |
 | "Especialistas dizem" | Atribuição vaga | Atribuições Vagas |
 | "insights valiosos" | Expressão corporativa | Expressões Corporativas e Promocionais |
-| "—" | Travessão | Pontuação e Formatação |
 | "não apenas rápida, mas também consistente" | Paralelismo negativo | Paralelismos Negativos |
 | "Com o objetivo de" | Preenchimento | Preenchimento e Hedging |
 | "robusta", "abrangentes" | Adjetivo vago e promocional | Vocabulário Proibido |
@@ -103,11 +102,11 @@ Funciona em texto que você escreveu e em texto que a IA escreveu. E no que pass
 A resposta vem em quatro blocos, nessa ordem:
 
 1. **Versão humanizada**, a primeira reescrita
-2. **Auditoria anti-IA**, o que ainda soa automático nessa primeira versão
-3. **Versão final**, a reescrita depois de corrigir o que a auditoria apontou
-4. **Resumo das melhorias**, opcional, explica o que mudou
+2. **Auditoria**, uma tabela do que foi encontrado, em que grupo de evidência cai e o que foi feito
+3. **O que eu não mexi**, os trechos que parecem sinal mas são escolha sua
+4. **Versão final**, depois de corrigir o que a auditoria apontou
 
-O segundo bloco existe porque uma passada só não resolve. A skill critica o próprio trabalho antes de te entregar.
+O segundo bloco existe porque uma passada só não resolve; a skill critica o próprio trabalho antes de te entregar. O terceiro existe porque a versão anterior apagava voz de autor achando que era ruído.
 
 ## O que ela não faz
 
@@ -120,9 +119,12 @@ Também não prometo nota em detector de IA. O critério aqui é leitura humana,
 As listas de vocabulário e as estruturas proibidas saem de duas fontes:
 
 - [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), o guia que os editores da Wikipedia usam pra identificar texto gerado por máquina
-- Sampaio, R. C. (2026). *Prompts para diminuir os marcadores de escrita por IA*. [Substack cardososampaio](https://cardososampaio.substack.com)
+- [How to spot AI writing](https://theeconomistoffthecharts.substack.com/p/how-to-spot-ai-writing), o estudo do Economist de agosto de 2026, com 55.940 frases e 1,2 milhão de palavras, comparando artigos próprios com versões escritas por ChatGPT, Claude, Gemini e Grok
+- [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style), para as convenções de título, negrito, lista e tabela
 
-A Wikipedia entra com o catálogo de padrões, observado por gente que revisa artigo em volume alto. O Sampaio entra com o recorte de português brasileiro, que é onde o guia em inglês não alcança.
+A Wikipedia entra com o catálogo de padrões, observado por gente que revisa artigo em volume alto. O Economist entra com a medição, e é dele que vem a hierarquia de sinais: o que foi medido em amostra grande pesa mais que o que virou folclore de internet.
+
+É de lá também que sai a correção mais importante da versão 3. A versão anterior mandava evitar ponto e vírgula por completo. Modelos usam menos vírgula, ponto e vírgula e parêntese que pessoas, então aquela regra empurrava o texto na direção errada.
 
 ## Licença
 
