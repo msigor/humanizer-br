@@ -106,7 +106,7 @@ A resposta vem em quatro blocos, nessa ordem:
 3. **O que eu não mexi**, os trechos que parecem sinal mas são escolha sua
 4. **Versão final**, depois de corrigir o que a auditoria apontou
 
-O segundo bloco existe porque uma passada só não resolve; a skill critica o próprio trabalho antes de te entregar. O terceiro existe porque a versão anterior apagava voz de autor achando que era ruído.
+O segundo bloco existe porque uma passada só não resolve; a skill critica o próprio trabalho antes de te entregar. O terceiro existe porque revisão automática tende a apagar voz de autor achando que é ruído.
 
 ## O que ela não faz
 
@@ -124,7 +124,7 @@ As listas de vocabulário e as estruturas proibidas saem de duas fontes:
 
 A Wikipedia entra com o catálogo de padrões, observado por gente que revisa artigo em volume alto. O Economist entra com a medição, e é dele que vem a hierarquia de sinais: o que foi medido em amostra grande pesa mais que o que virou folclore de internet.
 
-É de lá também que sai a correção mais importante da versão 3. A versão anterior mandava evitar ponto e vírgula por completo. Modelos usam menos vírgula, ponto e vírgula e parêntese que pessoas, então aquela regra empurrava o texto na direção errada.
+É de lá que sai o achado mais contraintuitivo da skill. Modelos usam menos vírgula, ponto e vírgula e parêntese que pessoas, então economizar pontuação é justamente o que entrega o texto.
 
 ## Licença
 

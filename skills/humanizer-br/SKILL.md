@@ -1,6 +1,6 @@
 ---
 name: humanizer-br
-version: 3.0.0
+version: 1.0.0
 description: |
   Editor de texto em português que remove sinais de escrita gerada por IA e
   eleva a qualidade editorial. Trabalha em três camadas: tira os padrões que
@@ -55,10 +55,8 @@ corre sem respiro (e, principalmente, sem hierarquia interna).
 Parêntese para o aparte que não merece frase própria. Ponto e vírgula quando
 duas orações se sustentam sozinhas mas pertencem uma à outra.
 
-> **Correção importante em relação à versão 2 desta skill.** A versão anterior
-> mandava evitar ponto e vírgula por completo. A evidência aponta o contrário:
-> ponto e vírgula é mais comum em texto humano que em texto de máquina. Aquela
-> regra empurrava o texto na direção errada.
+Vale insistir neste ponto, porque a intuição puxa para o outro lado: conselho
+de escrita costuma mandar cortar pontuação, e aqui cortar é o que denuncia.
 
 ## 2. Uniformidade no tamanho das frases
 
